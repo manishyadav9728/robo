@@ -1,0 +1,60 @@
+.background{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(4, 6, 11);
+}
+.backgroundContent{
+    color: rgb(126, 129, 132);
+    font-size: 100px;
+}
+.backgroundContentDown{
+    margin-top: 100px;
+    color: rgb(126, 129, 132);
+    font-size: 100px;
+}
+.backgroundGraph{
+    padding-left: 50px;
+    max-width: 300px;
+    overflow: auto;
+
+}
+.eventDiv{
+
+    width: 700px;
+    overflow-x: auto;
+    margin-top: 150px;
+    
+}
+
+.content{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+}
+.buttonDiv{
+    width: 300px;
+    height: 70px;
+    background-color: rgb(62, 62, 63);
+    border-radius:50px;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.EventButton{
+    color: rgb(195, 194, 192);
+    margin: 10px;
+    font-size: 20px;
+}
+
+.active{
+    height: 70px;
+    border-radius:50px;
+    background-color: rgb(130, 128, 128);
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

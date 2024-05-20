@@ -1,0 +1,56 @@
+.top{
+    color: rgb(209, 207, 204);
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.EventName{
+    color: rgb(181, 182, 184);
+    margin-left:50px;
+    margin-top:50px;
+    font-size: 50px;
+}
+.icons{
+    color: rgb(209, 207, 204);
+    margin-left: 50px;
+    font-size: medium;
+    margin-top:-30px;
+}
+.description{
+    margin-left: 50px;
+    color:rgb(209, 207, 204);
+    font-size: large;
+    max-width: 400px;
+}
+.artist{
+    color: rgb(209, 207, 204);
+    margin-left: 50px;
+    font-size: 20px;
+    
+}
+.images{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.artistImage{
+    border-radius: 10px;
+}
+.artistImage:hover{
+    transform: scale(1.2);
+}
+.clickClass{
+    height: 250px;
+    width: 220px;
+}
+.CollectionImage{
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.CollectionDiv{
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+    width: 350px;
+    overflow: auto;
+}
